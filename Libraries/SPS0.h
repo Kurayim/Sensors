@@ -16,7 +16,7 @@
 
 extern I2C_HandleTypeDef hi2c1;
 
-#define SPS30_I2C_ADDR		0x69
+#define SPS30_I2C_ADDR		(0x69 << 1)
 #define I2C_TIMEOUT		1000
 
 
