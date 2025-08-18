@@ -87,6 +87,10 @@ extern I2C_HandleTypeDef hi2c1;
 #define SPS30_CMD_RESET                     0xD304  // Set Pointer, <100ms, FW v1.0
 
 
+
+
+
+
 typedef enum
 {
   SPS30_OK			= 0x00U,
@@ -174,6 +178,10 @@ HAL_StatusTypeDef SPS30_GetProductType(char *product_type);
 
 
 HAL_StatusTypeDef SPS30_GetSerialNumber(char *serial_number);
+
+
+
+
 
 
 
